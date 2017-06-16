@@ -1,0 +1,34 @@
+{
+  "name": "catsapi",
+  "version": "1.0.0",
+  "description": "REST Service for Catalogue Management using Node ",
+  "main": "index.js",
+  "scripts": {
+    "test": "Cats Flying",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devndone/CatalogueSystem.git"
+  },
+  "keywords": [
+    "Node",
+    "CatalogueSystem",
+    "REST",
+    "API"
+  ],
+  "author": "devndone",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devndone/CatalogueSystem/issues"
+  },
+  "homepage": "https://github.com/devndone/CatalogueSystem#readme",
+  "devDependencies": {
+    "body-parser": "^1.17.2",
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "express": "^4.15.3",
+    "mongoose": "^4.10.6"
+  }
+}
